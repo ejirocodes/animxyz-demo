@@ -54,4 +54,21 @@ body {
   font-size: 3rem;
   z-index: -1;
 }
+
+.shape-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.shape {
+  width: 12rem;
+  height: 12rem;
+  background-color: #f2a154;
+  margin: 1rem;
+  border-radius: 20px;
+}
 /*# sourceMappingURL=main.css.map */
